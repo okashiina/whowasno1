@@ -1,0 +1,12 @@
+:root { --paper: #F4F1EA; --ink: #111111; --muted: #6B665C; --rule: #D8D3C8; --accent: #E4402F; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.6 "Archivo", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 56px 20px 80px; }
+.kicker { font-weight: 600; letter-spacing: .3em; font-size: 13px; opacity: .7; margin: 0; }
+h1 { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 72px; line-height: .95; margin: 4px 0 20px; }
+h2 { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; font-size: 30px; margin: 36px 0 8px; }
+p, li { color: var(--ink); }
+.muted { color: var(--muted); }
+a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.avatar { width: 88px; height: 88px; border-radius: 50%; display: block; margin-bottom: 24px; }
+footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
